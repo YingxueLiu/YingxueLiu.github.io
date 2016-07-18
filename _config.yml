@@ -1,0 +1,17 @@
+exclude: []
+include: []
+encoding : utf-8
+timezone: Asia/Shanghai
+markdown: kramdown
+highlighter: rouge
+paginate: 8
+permalink: /:title
+title: 刘映雪的博客
+description: Everything is possible!
+url: http://YingxueLiu.github.io
+feed: /feed.xml
+author: 刘映雪
+short_name: YingxueLiu
+pre-site: gong-
+param-cate: CATE
+param-tag: TAG
