@@ -1,31 +1,27 @@
-<header class="header">
-  <div class="header-inner">
-    <div class="avatar">     
-      <a title="{{ site.title }}" href="/"><img width="80" height="80" src="https://avatars0.githubusercontent.com/u/20508199?v=3&s=460" class="circle"></a>
-    </div>  
-    <div class="blog-title">
-      <a title="{{ site.title }}" href="/"><h2>{{ site.title }}</h2></a>
-    </div> 
-    <div class="blog-description">
-      <p>{{ site.description }}</p>
-    </div> 
-    <div class="links">
-      <a title="home" href="/"><i class="fa fa-2x fa-home"></i></a>
-      <a title="about me" href="/about.html"><i class="fa fa-2x fa-user"></i></a>
-      <a title="github" href="https://github.com/YingxueLiu" target="_blank"><i class="fa fa-2x fa-github"></i></a>
-      <a title="weibo" href="" target="_blank"><i class="fa fa-2x fa-weibo"></i></a>
-      <a title="RSS订阅" href="/feed.xml" target="_blank"><i class="fa fa-2x fa-rss"></i></a>
-    </div> 
-    <div class="calculates">  
-      <div class="calculate-item">
-        <a href="/archive.html"><span class="calculate-item-count">{{ site.posts.size }}</span><span class="calculate-item-name">归档</span></a>
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
       </div>
-      <div class="calculate-item">
-        <a href="/category.html"><span class="calculate-item-count">{{ site.categories.size }}</span><span class="calculate-item-name">分类</span></a>
-      </div>
-      <div class="calculate-item">
-        <a href="/tag.html"><span class="calculate-item-count">{{ site.tags.size }}</span><span class="calculate-item-name">标签</span></a>
-      </div>
-    </div>
+    </nav>
+
   </div>
+
 </header>
