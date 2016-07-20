@@ -7,8 +7,6 @@ author:     "YingxueLiu"
 category: 技术
 tags:
     - git
-    - jekyll
-    - ruby
     - 多说
 ---
 
