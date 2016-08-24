@@ -16,4 +16,9 @@ tags:
 		mycars[i]=nodeList[i].innerHTML;
 	}
 	var vol=mycars.indexOf(UserListCtrl.nickname);`
-2、
+2、修改父页面
+	`window.parent.document.getElementById('user_xb_now').innerHTML = data;
+	window.parent.document.getElementById('userCurrencyPanelId').innerHTML = data;`
+3、改编码
+	`iconv("GB2312","UTF-8//IGNORE",urldecode($remark))`
+4、`scrollLeft`

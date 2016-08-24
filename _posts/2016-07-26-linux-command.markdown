@@ -31,7 +31,10 @@ tags:
 
 
 解压 
-	tar xvf 包.tar 包
-
-`chmod -R 777 路径`
-`chown mysql:mysql 路径`
+	`tar xvf 包.tar 包`
+属性
+	`chmod -R 777 路径`
+	`chown mysql:mysql 路径`
+检索字符串
+	`grep -rn "hello" ./`
+` find /data -name *.php | xargs grep "vip_new"`
