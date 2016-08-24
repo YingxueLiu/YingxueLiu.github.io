@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      "thinkphp"
+subtitle:   "THINKPHP"
+date:       2016-07-20
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - thinkphp
+---
