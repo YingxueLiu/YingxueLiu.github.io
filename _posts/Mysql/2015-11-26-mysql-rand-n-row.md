@@ -1,11 +1,15 @@
 ---
-layout: post
-title: 从Mysql某一表中随机读取n条数据的SQL查询语句 
-description: 从Mysql某一表中随机读取n条数据的SQL查询语句
-category: mysql
-tags: [mysql]
-date: 2015-11-26
+layout:     post
+title:      "从Mysql某一表中随机读取n条数据的SQL查询语句"
+subtitle:   "从Mysql某一表中随机读取n条数据的SQL查询语句"
+date:       2015-05-20
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - mysql
 ---
+
 
 
 若要在`i ≤ R ≤ j`这个范围得到一个随机整数R ，需要用到表达式 `FLOOR(i + RAND() * (j – i + 1))`。

@@ -1,10 +1,14 @@
 ---
-layout: post
-title: 简单实用的PHP函数
-description: 收集一些简单实用的PHP函数
-category: php
-tags: [PHP,函数]
-date: 2015-10-10
+layout:     post
+title:      "简单实用的PHP函数"
+subtitle:   "简单实用的PHP函数"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - 函数
 ---
 
 ###对象到数组转换

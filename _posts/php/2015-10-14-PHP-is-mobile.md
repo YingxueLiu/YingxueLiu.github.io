@@ -1,10 +1,14 @@
 ---
-layout: post
-title: PHP 判断设备是否是手机/平板的方法
-description: PHP 判断设备是否是手机/平板的方法
-category: php
-tags: [PHP,mobile]
-date: 2015-10-14
+layout:     post
+title:      "PHP 判断设备是否是手机/平板的方法"
+subtitle:   "PHP 判断设备是否是手机/平板的方法"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - mobile
 ---
 
 在做WEB开发的时候经常会需要用到对移动设备的页面匹配，当然可以直接把网站做成响应式的，但如果不想这么做的话，可以使用PHP对设备类型进行判断，然后显示相应的界面和内容。今天分享一种使用 PHP 判断设备是否是手机/平板的方法，方法来源于WordPress(wp-includes/vars.php:125)，适用于大部分类型的手机/平板判断：

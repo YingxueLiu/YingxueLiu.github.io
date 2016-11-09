@@ -1,11 +1,16 @@
 ---
-layout: post
-title: 自动检测程序正常运行，遇故障则重启服务
-description: 自动检测程序正常运行，遇故障则重启服务
-category: Linux
-tags: [linux,shell]
-date: 2015-12-29
+layout:     post
+title:      "自动检测程序正常运行，遇故障则重启服务"
+subtitle:   "自动检测程序正常运行，遇故障则重启服务"
+date:       2015-06-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - Linux
+    - 技术
+    - shell
 ---
+
 在某些情况下，如系统负载过大server无法申请到内存而挂掉、server底层发生段错误、server占用内存过大被内核Kill，或者被某些程序误杀。那server将无法提供服务，导致业务中断，公司收入出现损失。
 
 有一个非常有效并且常用的方案是crontab重启监控。

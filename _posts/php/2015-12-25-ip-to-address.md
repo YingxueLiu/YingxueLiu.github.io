@@ -1,10 +1,14 @@
 ---
-layout: post
-title: 根据ip查询所在地
-description: 根据ip查询所在地
-category: PHP
-tags: [php,ip]
-date: 2015-12-25
+layout:     post
+title:      "根据ip查询所在地"
+subtitle:   "根据ip查询所在地"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - ip
 ---
 
 ##获取IP地址

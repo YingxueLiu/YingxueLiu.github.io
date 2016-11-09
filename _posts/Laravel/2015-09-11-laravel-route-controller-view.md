@@ -1,10 +1,14 @@
 ---
-layout: post
-title: 【laravel学习笔记】二、路由、控制器及视图简介 
-description: 路由、控制器及视图简介
-category: php
-tags: [laravel,笔记]
-date: 2015-09-11
+layout:     post
+title:      "【laravel学习笔记】二、路由、控制器及视图简介"
+subtitle:   "【laravel学习笔记】二、路由、控制器及视图简介"
+date:       2015-02-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - php
+    - 技术
+    - laravel
 ---
 
 ##路由

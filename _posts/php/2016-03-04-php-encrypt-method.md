@@ -1,10 +1,14 @@
 ---
-layout: post
-title: 几种常见的PHP加密算法
-description: 几种常见的PHP加密算法
-category: php
-tags: [PHP,encrypt]
-date: 2016-03-04
+layout:     post
+title:      "几种常见的PHP加密算法"
+subtitle:   "几种常见的PHP加密算法"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - encrypt
 ---
 
 ##Discuz authcode

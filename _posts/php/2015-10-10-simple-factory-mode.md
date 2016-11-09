@@ -1,10 +1,13 @@
 ---
-layout: post
-title: PHP设计模式之简单工厂模式
-description: PHP设计模式之简单工厂模式
-category: php
-tags: [PHP,简单工厂模式]
-date: 2015-10-10
+layout:     post
+title:      "PHP设计模式之简单工厂模式"
+subtitle:   "PHP设计模式之简单工厂模式"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
 ---
 简单工厂模式：
 

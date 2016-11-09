@@ -1,11 +1,18 @@
 ---
-layout: post
-title: 使用PHP+Zend_Search_Lucene做全站中文搜索引擎
-description: 使用PHP+Zend_Search_Lucene做全站中文搜索引擎
-category: PHP
-tags: [Zend_Search_Lucene,搜索引擎,Blog]
-date: 2015-12-01
+layout:     post
+title:      "使用PHP+Zend_Search_Lucene做全站中文搜索引擎"
+subtitle:   "使用PHP+Zend_Search_Lucene做全站中文搜索引擎"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - Zend_Search_Lucene
+    - 搜索引擎
+    - Blog
 ---
+
 ## 1.概述
 
 Zend_Search_Lucene是一个完全基于PHP5的通用文本搜索引擎，它将索引存储在文件系统中，不需要数据库服务器。

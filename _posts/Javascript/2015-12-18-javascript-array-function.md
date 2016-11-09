@@ -1,10 +1,14 @@
 ---
-layout: post
-title: Javascript各种数组方法
-description: Javascript各种数组方法
-category: Javascript
-tags: [Javascript,Array]
-date: 2015-12-18
+layout:     post
+title:      "Javascript各种数组方法"
+subtitle:   "Javascript各种数组方法"
+date:       2015-02-18
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - Javascript
+    - Array
 ---
 
 ##数组的基本方法如下

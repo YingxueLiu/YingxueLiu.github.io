@@ -1,11 +1,17 @@
 ---
-layout: post
-title: jQuery插件模板
-description: jQuery插件模板
-category: jQuery
-tags: [jQuery,插件,模板]
-date: 2015-12-02
+layout:     post
+title:      "jQuery插件模板"
+subtitle:   "jQuery插件模板"
+date:       2015-02-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - jQuery
+    - 插件
+    - 模板
+    - 技术
 ---
+
 此 jQuery 插件模板出自：[jQuery Plugin Boilerplate, revisited](http://stefangabos.ro/jquery/jquery-plugin-boilerplate-revisited/)
 <!-- more -->
 

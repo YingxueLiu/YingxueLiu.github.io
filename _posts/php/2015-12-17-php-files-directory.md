@@ -1,10 +1,14 @@
 ---
-layout: post
-title: php获取文件夹下所有文件，包含子文件夹
-description: php获取文件夹下所有文件，包含子文件夹
-category: PHP
-tags: [php,文件夹]
-date: 2015-12-17
+layout:     post
+title:      "php获取文件夹下所有文件，包含子文件夹"
+subtitle:   "php获取文件夹下所有文件，包含子文件夹"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - 文件夹
 ---
 
     /**

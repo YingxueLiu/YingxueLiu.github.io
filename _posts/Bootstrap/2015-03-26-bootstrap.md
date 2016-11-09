@@ -1,10 +1,15 @@
 ---
-layout: post
-title: bootstrap笔记
-description: bootstrap笔记
-category: css
-tags: ['bootstrap','css','笔记']
-date: 2015-03-26
+layout:     post
+title:      "bootstrap笔记"
+subtitle:   "bootstrap笔记"
+date:       2015-03-26
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - bootstrap
+    - css
+    - 笔记
 ---
 
 ##简介

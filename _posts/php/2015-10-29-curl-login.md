@@ -1,10 +1,14 @@
 ---
-layout: post
-title: curl模拟登陆
-description: curl模拟登陆
-category: 技术
-tags: [php,curl]
-date: 2015-10-29
+layout:     post
+title:      "curl模拟登陆"
+subtitle:   "curl模拟登陆"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - curl
 ---
 
 用PHP开发模拟浏览器的应用,首选技术是CURL函数库。但是php官方提供的技术文档资料很少，相关的示例代码也很少。<!-- more -->

@@ -1,10 +1,14 @@
 ---
-layout: post
-title: 各种常见的UI元素
-description: 各种常见的UI元素
-categories: ['html','css']
-tags: [html,css]
-date: 2015-12-10
+layout:     post
+title:      "各种常见的UI元素"
+subtitle:   "各种常见的UI元素"
+date:       2015-02-16
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - css
+    - html
 ---
 
 ##按钮

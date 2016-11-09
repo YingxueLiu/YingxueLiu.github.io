@@ -1,10 +1,14 @@
 ---
-layout: post
-title: 收藏到桌面的快捷方式
-description: 收藏到桌面的快捷方式
-category: PHP
-tags: [php,快捷方式]
-date: 2015-12-15
+layout:     post
+title:      "收藏到桌面的快捷方式"
+subtitle:   "收藏到桌面的快捷方式"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - 快捷方式
 ---
 
 收藏到桌面的快捷方式，使用链接：`_path_/shortcut.php?url=_url_&filename=_filename_`

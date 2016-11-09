@@ -1,10 +1,14 @@
 ---
-layout: post
-title: 【laravel学习笔记】一、安装
-description: laravel学习
-category: php
-tags: [laravel,笔记]
-date: 2015-09-11
+layout:     post
+title:      "【laravel学习笔记】一、安装"
+subtitle:   "【laravel学习笔记】一、安装"
+date:       2015-02-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - php
+    - 技术
+    - laravel
 ---
 
 # Windows下安装

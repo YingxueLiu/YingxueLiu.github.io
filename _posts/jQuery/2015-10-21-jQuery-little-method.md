@@ -1,11 +1,14 @@
 ---
-layout: post
-title: 常用的jQuery小技巧
-description: 常用的jQuery小技巧
-category: jQuery
-tags: [jQuery]
-date: 2015-10-21
+layout:     post
+title:      "常用的jQuery小技巧"
+subtitle:   "常用的jQuery小技巧"
+date:       2015-02-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - jQuery
 ---
+
 　1. 如何创建嵌套的过滤器
 
     //允许你减少集合中的匹配元素的过滤器，  

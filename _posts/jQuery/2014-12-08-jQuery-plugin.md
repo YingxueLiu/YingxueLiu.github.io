@@ -1,10 +1,13 @@
 ---
-layout: post
-title: jQuery插件开发笔记
-description: jQuery插件开发笔记
-category: jQuery
-tags: [jQuery,笔记]
-date: 2015-12-08
+layout:     post
+title:      "jQuery插件开发笔记"
+subtitle:   "jQuery插件开发笔记"
+date:       2015-02-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - jQuery
+    - 笔记
 ---
 
 jQuery插件的开发包括两种：

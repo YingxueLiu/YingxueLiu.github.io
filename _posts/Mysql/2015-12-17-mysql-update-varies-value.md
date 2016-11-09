@@ -1,10 +1,13 @@
 ---
-layout: post
-title: mysql批量更新多条记录的不同值
-description: mysql批量更新多条记录的不同值
-category: mysql
-tags: [mysql,update]
-date: 2015-12-17
+layout:     post
+title:      "mysql批量更新多条记录的不同值"
+subtitle:   "mysql批量更新多条记录的不同值"
+date:       2015-05-20
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - mysql
 ---
 
 如果更新多条数据为不同的值，可能很多人会这样写：

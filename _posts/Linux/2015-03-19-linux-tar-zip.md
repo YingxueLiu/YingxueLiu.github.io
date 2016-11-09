@@ -6,6 +6,17 @@ category: linux
 tags: [linux]
 date: 2015-03-19
 ---
+---
+layout:     post
+title:      "打包/压缩目录"
+subtitle:   "打包/压缩目录"
+date:       2015-06-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - Linux
+    - 技术
+---
 ##打包/压缩目录
 
 范例一：将整个 /etc 目录下的文件全部打包成为 /tmp/etc.tar

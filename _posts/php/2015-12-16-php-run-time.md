@@ -1,10 +1,14 @@
 ---
-layout: post
-title: PHP调试执行时间
-description: PHP调试执行时间
-category: PHP
-tags: [php,调试]
-date: 2015-12-16
+layout:     post
+title:      "PHP调试执行时间"
+subtitle:   "PHP调试执行时间"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - 调试
 ---
 
 ##获取一行或一段代码的执行时间

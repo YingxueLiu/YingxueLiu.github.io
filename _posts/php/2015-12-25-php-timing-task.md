@@ -1,10 +1,14 @@
 ---
-layout: post
-title: PHP设置定时任务的实现方法
-description: PHP设置定时任务的实现方法
-category: PHP
-tags: [php,定时任务]
-date: 2015-12-25
+layout:     post
+title:      "PHP设置定时任务的实现方法"
+subtitle:   "PHP设置定时任务的实现方法"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - 定时任务
 ---
 
 定时运行任务对于一个网站来说，是一个比较重要的任务，比如定时发布文档，定时清理垃圾信息等，现在的网站大多数都是采用PHP动态语言开发的，而对于PHP的实现决定了它没有Java和.Net这种AppServer的概念，而http协议是一个无状态的协议，PHP只能被用户触发，被调用，调用后会自动退出内存，没有常驻内存。

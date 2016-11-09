@@ -1,10 +1,13 @@
 ---
-layout: post
-title: 微信内置浏览器UserAgent的判断
-description: 微信内置浏览器UserAgent的判断
-category: 技术
-tags: [微信,UserAgent]
-date: 2016-03-01
+layout:     post
+title:      "微信内置浏览器UserAgent的判断"
+subtitle:   "微信内置浏览器UserAgent的判断"
+date:       2015-02-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 微信
+    - UserAgent
 ---
 
 通过微信分享的URL链接都将通过微信内置的浏览器打开，那么如何区别判断是否是微信内置浏览器呢，很简单。

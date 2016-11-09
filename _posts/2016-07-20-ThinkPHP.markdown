@@ -2,7 +2,7 @@
 layout:     post
 title:      "thinkphp"
 subtitle:   "THINKPHP"
-date:       2016-07-20
+date:       2016-11-9
 author:     "YingxueLiu"
 category:  技术
 tags:
@@ -12,4 +12,4 @@ tags:
 #thinkphp
 >用了这么久的thinkphp，还没好好的系统研究一下呢，come on, baby!
 
-1、
+1、psr-4 

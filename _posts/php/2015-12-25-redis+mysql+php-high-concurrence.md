@@ -1,10 +1,16 @@
 ---
-layout: post
-title: 【高并发简单解决方案】redis队列缓存 + mysql 批量入库 + php离线整合
-description: redis队列缓存 + mysql 批量入库 + php离线整合
-category: PHP
-tags: [php,redis,mysql,高并发]
-date: 2015-12-25
+layout:     post
+title:      "高并发简单解决方案】redis队列缓存 + mysql 批量入库 + php离线整合"
+subtitle:   "高并发简单解决方案】redis队列缓存 + mysql 批量入库 + php离线整合"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - redis
+    - mysql
+    - 高并发
 ---
 
 需求背景：有个调用统计日志存储和统计需求，要求存储到mysql中；存储数据高峰能达到日均千万，瓶颈在于直接入库并发太高，可能会把mysql干垮。

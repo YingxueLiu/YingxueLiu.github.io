@@ -1,10 +1,14 @@
 ---
-layout: post
-title: PHP设计模式之单例模式
-description: PHP设计模式之单例模式
-category: php
-tags: [PHP,单例模式]
-date: 2015-10-09
+layout:     post
+title:      "PHP设计模式之单例模式"
+subtitle:   "PHP设计模式之单例模式"
+date:       2015-05-28
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - php
+    - 笔记
 ---
 
 单例模式（职责模式）：

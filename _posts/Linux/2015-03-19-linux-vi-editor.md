@@ -1,11 +1,16 @@
 ---
-layout: post
-title: linux之vi编辑器命令使用
-description: 总结了一些常用的vi命令
-category: linux
-tags: [linux,vi]
-date: 2015-04-03
+layout:     post
+title:      "linux之vi编辑器命令使用"
+subtitle:   "linux之vi编辑器命令使用"
+date:       2015-06-17
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - Linux
+    - 技术
+    - vi
 ---
+
 高级一些的编辑器，都会包含宏功能，vim当然不能缺少了，在vim中使用宏是非常方便的：
 *    :qx     开始记录宏，并将结果存入寄存器x
 *    q     退出记录模式
