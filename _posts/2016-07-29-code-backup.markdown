@@ -186,4 +186,11 @@ tags:
 	}
 	var MyMar=setInterval(Marquee,20);
 
-12、 
+12、 导入	
+
+	header("Content-Type: text/html; charset=utf-8");
+	require_once("../config/config.inc.php");
+	require_once("../config/funciton.php");
+	date_default_timezone_set("Asia/Chongqing");
+
+13、
