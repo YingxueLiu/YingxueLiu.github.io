@@ -51,4 +51,28 @@ tags:
     	}
 	}
 </code>
-5、
+5、controller
+<code>
+
+$event = \think\Loader::controller('Blog', 'event');
+
+$event = controller('Blog', 'event');
+</code>
+
+6、action
+<code>
+
+{:action('Blog/header', '', 'widget')}
+
+{:action('Blog/menu', ['name' => 'think'], 'widget')}
+</code>
+
+7、widget
+<code>
+
+{:widget('Blog/header')}
+
+{:widget('Blog/menu', ['name' => 'think'])}
+</code>
+
+8、
