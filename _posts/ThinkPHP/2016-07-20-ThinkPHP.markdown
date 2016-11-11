@@ -13,3 +13,42 @@ tags:
 >用了这么久的thinkphp，还没好好的系统研究一下呢，come on, baby!
 
 1、psr-4 
+
+2、软删除
+
+`User::withTrashed()->find();`查询包含软删除的数据
+
+`User::onlyTrashed()->find();`只查询软删除的数据
+
+3、前置函数
+
+<code>
+
+	protected $beforeActionList = [
+        'first',
+        'second' =>  ['except'=>'hello'],
+        'three'  =>  ['only'=>'hello,data'],
+    ];
+</code>
+
+4、空控制器
+
+<code>
+	
+	namespace app\index\controller;
+	use think\Request;
+	class Error {
+		public function index(Request $request){
+        	//根据当前控制器名来判断要执行那个城市的操作
+        	$cityName = $request->controller();
+        	return $this->city($cityName);
+    	}
+
+    	//注意 city方法 本身是 protected 方法
+    	protected function city($name){
+        	//和$name这个城市相关的处理
+        	 return '当前城市' . $name;
+    	}
+	}
+</code>
+5、

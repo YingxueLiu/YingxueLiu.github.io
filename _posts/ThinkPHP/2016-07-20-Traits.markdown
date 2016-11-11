@@ -26,8 +26,6 @@ tags:
 
 5、Traits 可以被静态成员静态方法定义
 
-
-<pre>
 <code>
 <?php
 trait StaticExample {
@@ -43,12 +41,12 @@ class Example {
 Example::doSomething();
 ?>
 </code>
-</pre>
+
 
 6、如果 trait 定义了一个属性，那类将不能定义同样名称的属性，否则会产生一个错误。如果该属性在类中的定义与在 trait 中的定义兼容（同样的可见性和初始值）则错误的级别是 E_STRICT，否则是一个致命错误
 
 7、继承自trait的静态变量有实例
-<pre><code>
+<code>
 <?php
 class TestClass {
     public static $_bar;
@@ -59,8 +57,8 @@ Foo1::$_bar = 'Hello';
 Foo2::$_bar = 'World';
 echo Foo1::$_bar . ' ' . Foo2::$_bar; // Prints: World World
 ?>
-</code></pre>
-<pre><code>
+</code>
+<code>
 <?php
 trait TestTrait {
     public static $_bar;
@@ -75,4 +73,10 @@ Foo1::$_bar = 'Hello';
 Foo2::$_bar = 'World';
 echo Foo1::$_bar . ' ' . Foo2::$_bar; // Prints: Hello World
 ?>
-</code></pre>
+</code>
+
+8、"final"关键字直接使用，不要用继承和abstract 类
+
+9、`echo "Class: " . __CLASS__ . PHP_EOL;`返回引用他的类，而不是调用这个类方法的类
+
+10、`http://php.net/manual/zh/language.oop5.traits.php` 54
