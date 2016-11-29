@@ -7,6 +7,7 @@ category:  技术
 tags:
     - 技术
     - lamp
+    - linux
 ---
 
 准备阶段
@@ -18,5 +19,5 @@ tags:
 
 开始阶段
 ---
-
-![image](https://yingxueliu.github.io/images/lamp/all_soft_tar.png)
+首先，我先下载了图片中所有的源码包，然后所有都解压到lamp文件夹中
+![image](https://yingxueliu.github.io/images/soft.png)
