@@ -25,8 +25,8 @@ tags:
 
 然后就是解压和安装
 大概安装了5遍之后，终于成功
-基本上所有安装命令都在文档[3.php](https://github.com/YingxueLiu/BackDocs/blob/master/lamp/3.php)中，本文档中的所有命令都基于本人的服务器环境
+基本上所有安装命令都在文档[3.php](https://github.com/YingxueLiu/BackDoc/blob/master/lamp/3.php)中，本文档中的所有命令都基于本人的服务器环境
 
-然后碰到的一些问题和解决办法都在[linux_doc.docs](https://github.com/YingxueLiu/BackDocs/blob/master/lamp/linux_doc.docx)
+然后碰到的一些问题和解决办法都在[linux_doc.docs](https://github.com/YingxueLiu/BackDoc/blob/master/lamp/linux_doc.docx)
 
 
