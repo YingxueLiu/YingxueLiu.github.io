@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "lamp搭建"
+date:       2016-07-26
+author:     "YingxueLiu"
+category:  技术
+tags:
+    - 技术
+    - lamp
+---
+
+准备阶段
+---
+>主要是准备服务器和域名
+
+服务器：aaa云的30一个月的 操作系统是CentOS5 64位的  20G系统问题  10G数据盘
+域名: 是在万网买的，随便买的2块钱一个，哈哈哈哈，一年
+
+开始阶段
+---
+
+![image](https://yingxueliu.github.io/images/lamp/all_soft_tar.png)
