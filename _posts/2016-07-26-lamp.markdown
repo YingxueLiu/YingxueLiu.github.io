@@ -21,7 +21,7 @@ tags:
 ---
 首先，我先下载了图片中所有的源码包，然后所有都解压到lamp文件夹中
 
-![image](../images/soft.png)
+![image](https://yingxueliu.github.io/images/lamp/soft.png)
 
 然后就是解压和安装
 大概安装了5遍之后，终于成功
